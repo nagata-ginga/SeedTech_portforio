@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Yu Gothic Merdium", "Yu Gothic", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+    color: rgb(37, 34, 34);
+}
+h1 {
+    font-family: "游ゴシック", "ヒラギノ明朝 ProN W3", "HG明朝E", "MS P明朝", "MS 明朝", Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+}
+.header-center{
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 5px;
+}
+.main-visual-top{
+    background-color: brown;
+}
+.main-visual {
+    height: 600px;
+    width: 80%;
+    background: url("../img/うちの犬.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+.profile-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #F5F5F5;
+}
+.profile-left {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+}
+.profile-img {
+    height: 300px;
+    margin: 0 auto;
+}
+.profile-right {
+    padding-left: 50px;
+}
+.profile-right h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.profile-details {
+    display: flex;
+
+    font-size: 22px;
+}
+/* --------------------------------*/
+
+.section-title{
+    text-align: center;
+    background-color: rgba(53, 217, 184, 0.687);
+    font-size: 40px;
+}
+
+.history{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+
+    width: 90vw;
+    height: auto;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+.history>h2{
+    width: 25%;
+    font-size: 20px;
+}
+.history>img{
+    width: 30vw;
+}
+
+footer {
+    background-color: rgba(53, 217, 184, 0.687);
+    text-align: center;
+}
+footer p {
+    padding: 20px 0;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
